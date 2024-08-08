@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisbeth Glamour Shop - Inicio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        .logo {
+            max-width: 50px; /* Cambia el tamaño máximo del logo según tus necesidades */
+        }
+    
+        .hero {
+            background-color: #d4af37; /* Color dorado */
+        }
+    
+        .btn-custom {
+            background-color: #e67e22; /* Color de fondo del botón */
+            color: white; /* Color del texto del botón */
+            border: none; /* Eliminar el borde del botón */
+        }
+    
+        .btn-custom:hover {
+            background-color: #d35400; /* Color de fondo del botón al pasar el cursor */
+            color: white; /* Asegúrate de que el texto sea visible en el hover */
+        }
+    
+        .card {
+            border: 1px solid #ddd; /* Color del borde de la tarjeta */
+        }
+    
+        .card-img-top {
+            width: 100%; /* Asegura que la imagen cubra todo el ancho del contenedor */
+            height: 400px; /* Establece una altura fija para todas las imágenes */
+            object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
+        }
+
+       
+    </style>
+    <link rel="icon" type="image/png" href="../imagenes/Logo_salon_lis.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="../imagenes/Logo_salon_lis.png" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.php">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Acceso</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.php">Sobre Nosotros</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Bienvenidos a Lisbeth Glamour Shop</h1>
+            <p class="lead">Descubre los mejores productos de belleza diseñados especialmente para ti</p>
+            <a href="products.php" class="btn btn-light btn-lg">Comprar ahora</a>
+        </div>
+    </header>
+
+    <!-- Featured Products Section -->
+    <section class="container my-5">
+        <h2 class="text-center">Productos Destacados</h2>
+        <div class="row">
+            <!-- Product Card 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagenes/Producto1.jpg" class="card-img-top" alt="Esfoleante">
+                    <div class="card-body">
+                        <h5 class="card-title">Esfoleante Corporal</h5>
+                        <p class="card-text">RD$600.00</p>
+                        <a href="product_details.php?id=1" class="btn btn-custom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagenes/Producto2.jpeg" class="card-img-top" alt="Crema Hidratante">
+                    <div class="card-body">
+                        <h5 class="card-title">Crema Hidratante</h5>
+                        <p class="card-text">RD$750.00</p>
+                        <a href="product_details.php?id=2" class="btn btn-custom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagenes/Producto3.jpg" class="card-img-top" alt="Serum Facial">
+                    <div class="card-body">
+                        <h5 class="card-title">Serum Facial</h5>
+                        <p class="card-text">RD$850.00</p>
+                        <a href="product_details.php?id=3" class="btn btn-custom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagenes/Producto4.jpg" class="card-img-top" alt="Máscara Facial">
+                    <div class="card-body">
+                        <h5 class="card-title">Máscara Facial</h5>
+                        <p class="card-text">RD$900.00</p>
+                        <a href="product_details.php?id=4" class="btn btn-custom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 5 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagenes/Producto5.jpg" class="card-img-top" alt="Gel Limpiador">
+                    <div class="card-body">
+                        <h5 class="card-title">Gel Limpiador</h5>
+                        <p class="card-text">RD$500.00</p>
+                        <a href="product_details.php?id=5" class="btn btn-custom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 6 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagenes/Producto6.jpg" class="card-img-top" alt="Crema Antienvejecimiento">
+                    <div class="card-body">
+                        <h5 class="card-title">Crema Antienvejecimiento</h5>
+                        <p class="card-text">RD$1,200.00</p>
+                        <a href="product_details.php?id=6" class="btn btn-custom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; Productos de Belleza 2024. Todos los derechos reservados.<br> (Esto es un proyecto final de DCU creado por Lisbeth De Jesus G.)</br></p>
+        <p>
+            <a href="privacy.html">Política de Privacidad</a> | <a href="terms.html">Términos de Servicio</a>
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
